@@ -1,3 +1,4 @@
+#Essential R packages
 install.packages(c("gbm", "kernlab", "ROCR", "party", "arules", "klaR", "C50", "h2o", "mclust", 
                    "neuralnet", "vcrpart", "LogicReg", "maptree", "REEMtree", "RPMM", "evtree", "oblique.tree", 
                    "ElemStatLearn", "rminer", "wordcloud", "class", "AzureML", "distcomp", "rotationForest", 
@@ -15,7 +16,7 @@ install.packages(c("gbm", "kernlab", "ROCR", "party", "arules", "klaR", "C50", "
                    "googleVis", "RIGHT", "leaflet", "dygraphs", "plotly", "networkD3", "d3heatmap", "DT", 
                    "threejs", "rglwidget", "DiagrammeR", "metricsgraphics", "gridBase", "ISLR", "car", 
                    "mgcv", "lme4", "nlme", "randomForest", "multcomp", "vcd", "glmnet", "survival", "caret" ,"RTextTools",
-                   "syuzhet", "gender", "internetarchive","ctv"))
+                   "syuzhet", "gender", "internetarchive","ctv","quanteda"))
 
 require(devtools)
 install_github('ramnathv/rCharts')
