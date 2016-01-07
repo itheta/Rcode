@@ -15,7 +15,7 @@ install.packages(c("gbm", "kernlab", "ROCR", "party", "arules", "klaR", "C50", "
                    "googleVis", "RIGHT", "leaflet", "dygraphs", "plotly", "networkD3", "d3heatmap", "DT", 
                    "threejs", "rglwidget", "DiagrammeR", "metricsgraphics", "gridBase", "ISLR", "car", 
                    "mgcv", "lme4", "nlme", "randomForest", "multcomp", "vcd", "glmnet", "survival", "caret" ,"RTextTools",
-                   "syuzhet", "gender", "internetarchive"))
+                   "syuzhet", "gender", "internetarchive","ctv"))
 
 require(devtools)
 install_github('ramnathv/rCharts')
@@ -23,3 +23,7 @@ install_github('ramnathv/slidify')
 install_github('ramnathv/slidifyLibraries')
 install_github('ramnathv/rCharts@dev')
 install_github('ramnathv/rMaps')
+
+library(ctv)
+install.views("MachineLearning")
+
