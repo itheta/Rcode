@@ -16,7 +16,7 @@ install.packages(c("gbm", "kernlab", "ROCR", "party", "arules", "klaR", "C50", "
                    "googleVis", "RIGHT", "leaflet", "dygraphs", "plotly", "networkD3", "d3heatmap", "DT", 
                    "threejs", "rglwidget", "DiagrammeR", "metricsgraphics", "gridBase", "ISLR", "car", 
                    "mgcv", "lme4", "nlme", "randomForest", "multcomp", "vcd", "glmnet", "survival", "caret" ,"RTextTools",
-                   "syuzhet", "gender", "internetarchive","ctv","quanteda","rpart","gculs","hexbin","scatterplot3d","rgl","Rcmdr"))
+                   "syuzhet", "gender", "internetarchive","ctv","quanteda","rpart","gculs","hexbin","scatterplot3d","rgl","Rcmdr","fields"))
 
 require(devtools)
 install_github('ramnathv/rCharts')
